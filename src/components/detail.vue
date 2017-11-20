@@ -104,6 +104,8 @@ export default {
 .video1{
   width: 3.2rem;
   height: 2.5rem;
+  position: relative;
+  z-index: -1;
 }
 .infomation{
   padding: 0.1rem 0.13rem 0.2rem 0.13rem;

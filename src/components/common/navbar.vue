@@ -39,10 +39,7 @@
 	           { sortname: '首页',path:'/home' },
 	           { sortname: '频道',path:'/channel' },
 	           { sortname: 'V榜',path:'/vbang' },
-	           { sortname: '悦单',path:'/yue' },
-	           { sortname: '商城',path:'/shop' },
-	           { sortname: '众筹',path:'/people' },
-	           { sortname: 'APP下载',path:'/download' }
+	           { sortname: '悦单',path:'/yue' }
 	         ],
 	         loadingIsShow:true
 	       }
@@ -111,8 +108,10 @@
 	}
 	.sortMenu-ul {  
 	  display: flex;
-	  justify-content: flex-start;
+	  justify-content: space-between;
 	  width: 3.2rem;
+	  padding:  0 0.2rem;
+	  box-sizing: border-box;
 	  .active{
 	  	border-bottom: 0.03rem solid #27d5bf;
 	  }
